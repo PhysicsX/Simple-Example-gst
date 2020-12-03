@@ -4,13 +4,13 @@ import QtMultimedia 5.2
 
 Window {
     visible: true
-    width: 640
-    height: 480
+    width: parent.width
+    height: parent.height
     title: qsTr("Hello World")
 
     Rectangle {
-        width: 800
-        height: 600
+        width: parent.width
+        height: parent.height
         color: "black"
 
         MediaPlayer {
